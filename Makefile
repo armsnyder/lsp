@@ -1,0 +1,6 @@
+default:
+	go mod tidy
+	go build ./...
+	go test ./...
+	golangci-lint run
+	@echo "Done"

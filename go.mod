@@ -1,5 +1,5 @@
 module github.com/armsnyder/lsp
 
-go 1.20
+go 1.23
 
-require go.uber.org/mock v0.4.0
+require go.uber.org/mock v0.5.2
